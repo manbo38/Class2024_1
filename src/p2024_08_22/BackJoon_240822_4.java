@@ -2,15 +2,16 @@ package p2024_08_22;
 
 import java.util.Scanner;
 
-public class BackJoon_240822_1 {
+public class BackJoon_240822_4 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String a = sc.nextLine();
-		int b = sc.nextInt();
+		String s = sc.nextLine();
 		
-		System.out.println(a.charAt(b-1));
+		char b = s.charAt(0);
+		int c = (int) b;
 		
+		System.out.println(c);
 	}
 
 }
